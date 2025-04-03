@@ -3,7 +3,7 @@ import { HonoRequest } from "hono";
 export const corsHeaders: Record<string, string> = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type, Authorization, CMCD, X-Origin",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization, CMCD, X-Origin, Origin, Referer, Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, Sec-GPC, User-Agent, Accept, Accept-Encoding, Accept-Language, Connection, Host",
   "Access-Control-Max-Age": "3600",
 };
 
